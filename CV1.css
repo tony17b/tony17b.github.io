@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    font: 0.8em sans-serif;
+    width: 800px;
+    text-align: left;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    padding-bottom: 1em;
+}
+.moi {
+    background: skyblue;
+    width: 100%;
+    padding: auto;
+}
+h1 {
+    font-size: 2.5em;
+}
+.poste {
+    padding-bottom: 1em;
+    border-bottom: solid navy;
+}
+.petit-titre {
+    font-size: 2em;
+}
+.corpsducv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.partiegauche {
+    background: white;
+    color: black;
+    width: 70%;
+    border-top: solid black;
+    padding: 1em 2em 2em 2em;
+}
+.partiedroite {
+    background: skyblue;;
+    color: black;
+    width: 30%;
+    border-top: solid black;
+}
+.cotegauche {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titreduposte {
+    font-weight: bold;
+}

@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(199, 175, 172);
+    background-color: whitesmoke;
+    height: auto;
+    width: 1200px;
 }
 h1 {
     text-align: center;
@@ -7,19 +9,27 @@ h1 {
 .titrecv {
     background-color: rgb(96, 96, 192);
     padding: 1em;
-    margin-left: 17%;
-    margin-right: 17%;
 }
 .gauchecv {
-    background-color: rgb(187, 186, 186);
+    background-color: rgb(144, 248, 243);
     padding: 1em;
+    width: 35%;
 }
 .droitecv {
-    background-color: antiquewhite;
+    background-color: white;
     padding: 1em;
+    width: 65%;
 }
 .corpscv {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.date {
+    font-style: italic;
+    font-size: 0.9em;
+}
+.soustitre {
+    font-style: oblique;
+    text-decoration: underline;
 }
